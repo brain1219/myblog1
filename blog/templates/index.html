@@ -41,6 +41,7 @@
                             <div class="card-body">
                                 {% if post.title_image %}
                                     <img src="{{ post.title_image.url }}" alt="..." style="max-width: 100%; height: auto">
+                                    <div class="py-1"></div>
                                 {% endif %}
                                 <h2 class="card-title h4">{{ post.title }}</h2>
                                 <div class="small text-muted">{{ post.createDate }}</div>
